@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.655 ns
+From           : A[2]
+To             : RAM1x2:inst4|RAM1x1D:inst1|inst1
+From Clock     : --
+To Clock       : C
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.645 ns
+From           : RAM1x2:inst1|RAM1x1D:inst1|inst1
+To             : Do[1]
+From Clock     : C
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.102 ns
+From           : R
+To             : Do[1]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -2.410 ns
+From           : D[0]
+To             : RAM1x2:inst|RAM1x1D:inst|inst1
+From Clock     : --
+To Clock       : C
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
